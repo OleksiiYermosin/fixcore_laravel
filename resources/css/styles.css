@@ -1,0 +1,3625 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  background: #E5E5E5;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.LogoAndText {
+  display: flex;
+  align-items: center;
+}
+.LogoAndText .LogoText {
+  margin-left: 1%;
+  height: 44px;
+}
+.LogoAndText .LogoText .LogoName {
+  width: 198px;
+  height: 31px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.16em;
+  color: #F46036;
+}
+.LogoAndText .LogoText .LogoDescription {
+  width: 198px;
+  height: 13px;
+  padding: 5px 2px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #F46036;
+}
+header button:focus {
+  outline: none;
+}
+header .BurgerMenu {
+  border: none;
+  border-color: #2B4570;
+  background: none;
+}
+.BurgerMenu {
+  display: none;
+  margin-left: auto;
+  padding: 0;
+}
+.BurgerMenu button {
+  border: none;
+  border-color: #2B4570;
+  background: none;
+}
+header {
+  height: 117px;
+  background: #2B4570;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+}
+.menu li {
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin-right: 30px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #F2F4F3;
+}
+.menu li:nth-child(4) {
+  margin-right: 0;
+}
+.FirstPart {
+  display: flex;
+  align-items: center;
+  height: 645px;
+  background: url('../../public/img/fpbg.png') no-repeat center top / cover;
+}
+.Introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 594px;
+  height: 444px;
+  background: linear-gradient(119.24deg, rgba(242, 244, 243, 0.75) 1.05%, rgba(242, 244, 243, 0.105) 102.17%);
+  box-shadow: 0 9px 35px rgba(0, 0, 0, 0.25);
+}
+.Introduction .Slogan h1 {
+  width: 487px;
+  margin: 0;
+  background: -webkit-linear-gradient(90deg, #F46036 100%, #E9473D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 105%;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+}
+.Introduction .Slogan p {
+  width: 505px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140.9%;
+  letter-spacing: 0.105em;
+  color: #0B2146;
+  margin: 5% 0 0;
+}
+.FirstContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hammer {
+  width: 401px;
+  height: 382px;
+}
+.SecondPart {
+  min-height: 860px;
+  display: flex;
+  align-items: center;
+}
+.SecondContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.SecondContent h2 {
+  align-self: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #F46036;
+}
+.SecondContent .TechnicsTypes {
+  display: flex;
+  justify-content: center;
+}
+.SecondContent .TechnicsTypes .WrapUl {
+  padding-left: 0;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.SecondContent .TechnicsTypes .WrapUl li {
+  display: flex;
+  align-content: center;
+  margin-right: 1.5%;
+  margin-top: 1%;
+}
+.SecondContent .TechnicsTypes .WrapUl .BaseAlign {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  background: #C4C4C4;
+  border-radius: 10px;
+  width: 170px;
+  height: 218px;
+}
+.SecondContent .TechnicsTypes .WrapUl .BaseAlign img {
+  display: flex;
+  align-self: center;
+  margin-top: 20%;
+}
+.SecondContent .TechnicsTypes .WrapUl .BaseAlign p {
+  text-align: center;
+}
+.SecondContent .TechnicsTypes li:nth-child(6n) {
+  margin-right: 0;
+}
+.SecondContent .HelpLine {
+  margin-top: 2%;
+  font-size: 26px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+}
+.ThirdPart {
+  min-height: 836px;
+  background: url('../../public/img/steelbg.jpg') no-repeat center top / cover;
+  display: flex;
+  align-items: center;
+}
+.ThirdContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ThirdContent h2 {
+  align-self: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #F46036;
+}
+.Advantages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Advantages .SimpleAdvantage {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+}
+.Advantages .IconAdvantage {
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  width: 130px;
+  height: 130px;
+  background: rgba(120, 139, 255, 0.4);
+  border-radius: 100%;
+}
+.Advantages .IconAdvantage img {
+  align-self: center;
+}
+.Advantages .TextAdvantage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 991px;
+  height: 130px;
+  background: rgba(120, 139, 255, 0.43);
+  border-radius: 25px;
+}
+.Advantages .TextAdvantage .HeaderText {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+}
+.Advantages .TextAdvantage .SecondText {
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #000000;
+}
+.FourthPart {
+  min-height: 668px;
+  display: flex;
+  align-items: center;
+}
+.FourthContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FourthContent h2 {
+  align-self: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #F46036;
+}
+.FourthContent .AgeText {
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #000000;
+}
+.FourthContent .PartnersText {
+  align-self: center;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #000000;
+}
+.FourthContent .ScrollPane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.FourthContent .ScrollPane #LeftScroller {
+  margin-right: 2%;
+}
+.FourthContent .ScrollPane .CompanyIcon {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  background: rgba(120, 139, 255, 0.4);
+  border-radius: 100%;
+}
+.FourthContent .ScrollPane .CompanyIcon img {
+  align-self: center;
+}
+.FourthContent .ScrollCircles {
+  display: flex;
+  align-self: center;
+  margin-top: 3%;
+}
+.FourthContent .ScrollCircles .ScrollCircle {
+  fill: #E5E5E5;
+}
+.FourthContent .ScrollCircles .ScrollCircle:nth-child(1) {
+  fill: #2B4570;
+}
+.FourthContent .ScrollCircles .ScrollCircle:nth-child(n+3) {
+  display: none;
+}
+.FifthPart {
+  min-height: 205px;
+  background: #2B4570;
+  display: flex;
+  align-items: center;
+}
+.FifthContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FifthContent h2 {
+  align-self: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  font-variant: small-caps;
+  color: #F46036;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+.FifthContent .WhiteOnBlueText {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.135em;
+  font-variant: small-caps;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  color: #F2F4F3;
+}
+.Form {
+  min-height: 419px;
+  margin-top: 0;
+  background: url('../../public/img/Form`s-BG.jpg') no-repeat center top / cover;
+}
+.form {
+  display: flex;
+  padding-top: 9%;
+  padding-bottom: 9%;
+  flex-direction: column;
+  justify-content: center;
+}
+.inForm {
+  display: flex;
+  flex-direction: column;
+}
+.textForm {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.inputElem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+.inForm input {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 80px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background: rgba(120, 139, 255, 0.9);
+  border: 2px solid #0F316A;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: black;
+  -webkit-text-fill-color: black;
+  font-family: 'Montserrat';
+}
+.inForm textarea {
+  padding-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  -webkit-text-fill-color: black;
+  color: black;
+  width: 60%;
+  background: rgba(120, 139, 255, 0.9);
+  border: 2px solid #0F316A;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  font-family: 'Montserrat';
+}
+.inForm input[type="submit"] {
+  display: block;
+  margin-top: 44px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  -webkit-text-fill-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  width: 255px;
+  height: 53px;
+  background: #2B4570;
+  box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+  border-radius: 15px;
+  align-self: flex-end;
+}
+.inForm textarea {
+  resize: none;
+}
+.buttonEnter {
+  display: flex;
+  justify-content: flex-end;
+}
+footer {
+  min-height: 218px;
+  background: #2B4570;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FooterContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.FirstFooterColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 106px;
+}
+.FirstFooterColumn .Copyright {
+  display: flex;
+  flex-direction: row;
+  margin-top: 11%;
+  align-self: flex-end;
+}
+.FirstFooterColumn .Copyright p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.12em;
+  color: #F2F4F3;
+}
+.FooterColumnName {
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+.FooterColumnName p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #F2F4F3;
+  margin-top: 0;
+}
+.FooterColumnContent p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  color: #F2F4F3;
+  margin: 0;
+  padding: 0;
+}
+.SecondFooterColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.forCopyright {
+  display: flex;
+  align-items: flex-end;
+}
+.ServicesTechnics {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+.ServicesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 2559px;
+}
+.MainHeadText {
+  align-self: center;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 6%;
+  margin-bottom: 1%;
+  color: #F46036;
+}
+.UnderHeadText {
+  display: flex;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: justify;
+  letter-spacing: 0.09em;
+  margin-bottom: 3%;
+  padding: 0;
+  color: #000000;
+}
+.WrapDiv {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.TechnicBox {
+  margin-right: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #C4C4C4;
+  border-radius: 10px;
+  width: 355px;
+  height: 467px;
+}
+.TechnicBox img {
+  margin-top: 20%;
+  background-blend-mode: darken;
+  filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.TechnicBox a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+.WrapDiv div:nth-child(3n) {
+  margin-right: 0;
+}
+.WrapDiv div:nth-child(n+9) {
+  margin-bottom: 0;
+}
+.TextBox {
+  display: flex;
+  width: 245px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.SimpleText {
+  font-size: 20px;
+  line-height: 154%;
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0;
+}
+.BoldText {
+  font-size: 23px;
+  line-height: 120%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.FirstInfoPart {
+  min-height: 761px;
+  display: flex;
+  align-items: center;
+}
+.FirstInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FirstInfoContent .WrapDiv {
+  justify-content: space-between;
+}
+.FirstInfoContent .MainHeadText {
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+.InfoBG {
+  width: 470px;
+  height: 404px;
+  filter: drop-shadow(0px 0px 35px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  margin-bottom: 6%;
+}
+.InfoIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  height: 484px;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+}
+.BoldInfoText {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.SimpleInfoText {
+  padding: 0;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0 0 5%;
+}
+.InfoIntro p.SimpleInfoText:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.InfoButtonCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.InfoButtonCont a {
+  text-decoration: none;
+}
+.InfoIntroText {
+  display: flex;
+  width: 420px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.InfoButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 356px;
+  height: 53px;
+  background: #2B4570;
+  box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+  border-radius: 15px;
+}
+.InfoWhiteText {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+.SecondInfoPart {
+  min-height: 707px;
+  display: flex;
+  align-items: center;
+  background: url('../../public/img/informationaltv/infoBG1.png') no-repeat center top / cover;
+}
+.SecondInfoContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.75);
+}
+.SecondInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.SecondInfoTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 454px;
+}
+.InfoOrangeText {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #F46036;
+}
+.InfoSimpleText {
+  font-size: 21px;
+  line-height: 28px;
+  text-align: justify;
+  color: #000000;
+}
+.ThirdInfoPart {
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+.ThirdInfoContent {
+  display: flex;
+  justify-content: space-between;
+}
+.InfoSmallText {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #F46036;
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+.ThirdInfoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ThirdInfoColumn .InfoIntro {
+  height: 440px;
+  width: 680px;
+}
+.ThirdInfoColumn .InfoIntro .InfoIntroText {
+  width: 610px;
+}
+.ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  letter-spacing: 0;
+  margin-bottom: 0;
+}
+.ThirdInfoColumn .InfoIntroText {
+  width: 680px;
+}
+.ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  margin-bottom: 1%;
+  margin-top: 6%;
+}
+.ThirdInfoColumn .InfoIntroText .BoldInfoText {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+}
+.FirstInfoImg {
+  display: flex;
+  align-self: flex-end;
+  width: 370px;
+  height: 318px;
+}
+.SecondInfoImg {
+  display: flex;
+  align-self: flex-end;
+  width: 240px;
+  height: 252px;
+}
+.Scrollers {
+  display: none;
+}
+.FirstCompanyPart {
+  min-height: 850px;
+  display: flex;
+  align-items: center;
+}
+.FirstCompanyContent {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.FirstCompanyContent .MainHeadText {
+  margin-top: 0;
+  line-height: 100%;
+  margin-bottom: 2%;
+}
+.FirstCompanyContent .CompanyIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+}
+.FirstCompanyContent .WrapDiv {
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.FirstCompanyContent .WrapDiv .CompanyIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 351px;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+}
+.CompanyBG {
+  display: flex;
+  width: 454px;
+  height: 351px;
+}
+.CompanyIntroText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 95%;
+}
+.SimpleCompanyText {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.CheckPart {
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+}
+.CheckContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.CheckContent .MainHeadText {
+  margin-top: 0;
+  margin-bottom: 4%;
+  line-height: 100%;
+}
+.CheckContent .CheckIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+}
+.CheckContent .CheckIntro .CheckIntroText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 95%;
+}
+.CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.CheckContent form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CheckContent .DivForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 23%;
+  height: 90px;
+}
+.CheckContent input[type=text] {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4%;
+  padding: 0;
+  background: rgba(120, 139, 255, 0.9);
+  border: 2px solid #0F316A;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  color: black;
+  -webkit-text-fill-color: black;
+  font-family: 'Montserrat';
+}
+.CheckContent input[type="button"] {
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-text-fill-color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  width: 58%;
+  height: 100%;
+  background: #2B4570;
+  box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+  border-radius: 10px;
+}
+header .showMenu {
+  display: block;
+  position: absolute;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  right: 0;
+  top: 100px;
+  width: 35%;
+  opacity: 90%;
+  margin: 0;
+  background: #2B4570;
+  text-align: left;
+}
+header .showMenu ul.menu.showMenu {
+  margin: 0;
+}
+header .showMenu li {
+  margin: 0;
+  text-align: unset;
+  padding: 5%;
+}
+header .showMenu .menu li:nth-child(4) {
+  margin-right: 13px;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .FirstPart {
+    height: 600px;
+  }
+  .Introduction {
+    width: 500px;
+    height: 400px;
+  }
+  .Introduction .Slogan h1 {
+    width: 410px;
+    font-weight: 800;
+    font-size: 44px;
+  }
+  .Introduction .Slogan p {
+    width: 410px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .hammer {
+    width: 360px;
+    height: 340px;
+  }
+  .hammer img {
+    width: 360px;
+    height: 340px;
+  }
+  .SecondPart {
+    min-height: 1000px;
+  }
+  .SecondContent h2 {
+    font-size: 32px;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(5n) {
+    margin-right: 0;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(6n) {
+    margin-right: 1.5%;
+  }
+  .SecondContent .HelpLine {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .ThirdPart {
+    min-height: 780px;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage {
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+    width: 90px;
+    height: 90px;
+    background: rgba(120, 139, 255, 0.4);
+    border-radius: 100%;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage img {
+    align-self: center;
+    height: 50px;
+    width: 50px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage {
+    width: 900px;
+    height: 110px;
+    border-radius: 25px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .HeaderText {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .SecondText {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .FourthPart {
+    min-height: 608px;
+  }
+  .FourthContent .AgeText {
+    font-size: 18px;
+  }
+  .FourthContent h2 {
+    font-size: 32px;
+  }
+  .FourthContent .PartnersText {
+    font-size: 20px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon:nth-last-child(-n + 4) {
+    display: none;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+3) {
+    display: flex;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+4) {
+    display: none;
+  }
+  .FifthPart {
+    min-height: 185px;
+  }
+  .FifthContent h2 {
+    font-size: 32px;
+  }
+  .FifthContent .WhiteOnBlueText {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+  }
+  .Form {
+    min-height: 380px;
+  }
+  .inputElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .inForm input {
+    width: 90%;
+    height: 65px;
+    font-size: 18px;
+  }
+  .inForm textarea {
+    font-size: 18px;
+  }
+  .inForm input[type="submit"] {
+    font-size: 20px;
+    width: 235px;
+    height: 47px;
+    font-family: 'Montserrat';
+  }
+  footer {
+    min-height: 190px;
+    background: #2B4570;
+  }
+  .FirstFooterColumn .Copyright p {
+    font-size: 14px;
+  }
+  .FooterColumnName p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .FooterColumnContent p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .ServicesContent {
+    min-height: 2920px;
+  }
+  .MainHeadText {
+    font-size: 44px;
+  }
+  .UnderHeadText {
+    font-size: 20px;
+  }
+  .TechnicBox {
+    width: 320px;
+    height: 380px;
+  }
+  .TechnicBox img {
+    height: 161px;
+    width: 200px;
+  }
+  .TechnicBox a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+  }
+  .WrapDiv div:nth-child(3n) {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .WrapDiv div:nth-child(2n) {
+    margin-right: 0;
+  }
+  .WrapDiv div:nth-child(n+10) {
+    margin-bottom: 0;
+  }
+  .TextBox {
+    width: 225px;
+  }
+  .SimpleText {
+    font-size: 18px;
+  }
+  .BoldText {
+    font-size: 20px;
+  }
+  .FirstInfoPart {
+    min-height: 671px;
+  }
+  .InfoBG {
+    width: 410px;
+    height: 344px;
+  }
+  .InfoIntro {
+    width: 410px;
+    height: 419px;
+  }
+  .BoldInfoText {
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+  }
+  .SimpleInfoText {
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+  }
+  .InfoIntroText {
+    width: 380px;
+  }
+  .InfoButton {
+    width: 306px;
+    height: 50px;
+  }
+  .InfoWhiteText {
+    font-size: 18px;
+  }
+  .SecondInfoPart {
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    background: url('../../public/img/informationaltv/infoBG1.png') no-repeat center top / cover;
+  }
+  .SecondInfoContent {
+    height: 550px;
+  }
+  .SecondInfoBox {
+    width: 430px;
+  }
+  .SecondInfoTextBox {
+    width: 400px;
+  }
+  .InfoOrangeText {
+    font-size: 22px;
+  }
+  .InfoSimpleText {
+    font-size: 18px;
+  }
+  .ThirdInfoPart {
+    height: 790px;
+  }
+  .InfoSmallText {
+    font-size: 28px;
+  }
+  .ThirdInfoColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  .ThirdInfoColumn .InfoIntro {
+    height: 400px;
+    width: 560px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText {
+    width: 530px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+    font-size: 20px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    width: 560px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    font-size: 22px;
+  }
+  .ThirdInfoColumn .InfoIntroText .BoldInfoText {
+    font-size: 18px;
+  }
+  .FirstInfoImg {
+    width: 340px;
+    height: 298px;
+  }
+  .SecondInfoImg {
+    width: 220px;
+    height: 262px;
+  }
+  .FirstCompanyPart {
+    min-height: 770px;
+    display: flex;
+    align-items: center;
+  }
+  .FirstCompanyContent {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstCompanyContent .MainHeadText {
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 2%;
+  }
+  .FirstCompanyContent .CompanyIntro {
+    width: 100%;
+    height: 300px;
+  }
+  .FirstCompanyContent .WrapDiv .CompanyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 311px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CompanyBG {
+    display: flex;
+    width: 404px;
+    height: 311px;
+  }
+  .CompanyIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .SimpleCompanyText {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .CheckPart {
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+  }
+  .CheckContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .CheckContent .MainHeadText {
+    margin-top: 0;
+    margin-bottom: 4%;
+    line-height: 100%;
+  }
+  .CheckContent .CheckIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CheckContent .CheckIntro .CheckIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .CheckContent .DivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 23%;
+    height: 90px;
+  }
+  .CheckContent input[type=text] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+    background: rgba(120, 139, 255, 0.9);
+    border: 2px solid #0F316A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-family: 'Montserrat';
+  }
+  .CheckContent input[type="button"] {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    width: 58%;
+    height: 100%;
+    background: #2B4570;
+    box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .LogoAndText .LogoText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 44px;
+  }
+  .LogoAndText .LogoText .LogoName {
+    font-size: 36px;
+    letter-spacing: 0.11em;
+    height: 29px;
+    margin-bottom: 1%;
+  }
+  .LogoAndText .LogoText .LogoDescription {
+    margin-top: 1%;
+    width: 198px;
+    height: 13px;
+    padding: 5px 2px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #F46036;
+  }
+  .BurgerMenu {
+    display: none;
+    margin-left: auto;
+  }
+  header {
+    height: 100px;
+  }
+  header .menu li {
+    font-size: 15px;
+    margin-right: 13px;
+  }
+  header .menu li:nth-child(4) {
+    margin-right: 0;
+  }
+  .FirstPart {
+    height: 500px;
+  }
+  .Introduction {
+    width: 410px;
+    height: 350px;
+  }
+  .Introduction .Slogan h1 {
+    width: 350px;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .Introduction .Slogan p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .hammer {
+    width: 240px;
+    height: 220px;
+  }
+  .hammer img {
+    width: 240px;
+    height: 220px;
+  }
+  .SecondPart {
+    min-height: 1170px;
+  }
+  .SecondContent h2 {
+    font-size: 28px;
+  }
+  .SecondContent .BaseAlign p {
+    font-size: 18px;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(5n) {
+    margin-right: 1.5%;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .SecondContent .HelpLine {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .ThirdPart {
+    min-height: 780px;
+  }
+  .ThirdContent h2 {
+    font-size: 28px;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage {
+    width: 70px;
+    height: 70px;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage img {
+    height: 40px;
+    width: 40px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage {
+    width: 600px;
+    height: 130px;
+    border-radius: 25px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .HeaderText {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .SecondText {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .FourthPart {
+    min-height: 600px;
+  }
+  .FourthContent .AgeText {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+  }
+  .FourthContent h2 {
+    font-size: 28px;
+  }
+  .FourthContent .PartnersText {
+    font-size: 20px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon:nth-last-child(-n + 4) {
+    display: none;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+3) {
+    display: flex;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+4) {
+    display: none;
+  }
+  .FifthPart {
+    min-height: 160px;
+  }
+  .FifthContent h2 {
+    font-size: 28px;
+  }
+  .FifthContent .WhiteOnBlueText {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+  .Form {
+    min-height: 380px;
+  }
+  .inputElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .inForm input {
+    width: 90%;
+    height: 65px;
+    font-size: 18px;
+  }
+  .inForm textarea {
+    font-size: 18px;
+  }
+  .inForm input[type="submit"] {
+    font-size: 18px;
+    width: 235px;
+    height: 47px;
+    font-family: 'Montserrat';
+  }
+  footer {
+    min-height: 170px;
+    background: #2B4570;
+  }
+  .FirstFooterColumn .Copyright p {
+    font-size: 10px;
+  }
+  .FooterColumnName p {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .FooterColumnContent p {
+    font-size: 11px;
+    line-height: 22px;
+  }
+  .ServicesContent {
+    min-height: 2520px;
+  }
+  .MainHeadText {
+    font-size: 40px;
+  }
+  .UnderHeadText {
+    font-size: 18px;
+  }
+  .TechnicBox {
+    width: 260px;
+    height: 320px;
+  }
+  .TechnicBox img {
+    height: 121px;
+    width: 160px;
+  }
+  .TechnicBox a {
+    font-size: 18px;
+  }
+  .WrapDiv div:nth-child(3n) {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .WrapDiv div:nth-child(2n) {
+    margin-right: 0;
+  }
+  .WrapDiv div:nth-child(n+10) {
+    margin-bottom: 0;
+  }
+  .TextBox {
+    width: 195px;
+  }
+  .SimpleText {
+    font-size: 16px;
+  }
+  .BoldText {
+    font-size: 18px;
+  }
+  .FirstInfoPart {
+    min-height: 520px;
+  }
+  .FirstInfoContent .MainHeadText {
+    line-height: 100%;
+  }
+  .InfoBG {
+    width: 290px;
+    height: 254px;
+  }
+  .InfoIntro {
+    width: 350px;
+    height: 320px;
+  }
+  .BoldInfoText {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .SimpleInfoText {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .InfoIntroText {
+    width: 330px;
+  }
+  .InfoButton {
+    width: 286px;
+    height: 50px;
+  }
+  .InfoWhiteText {
+    font-size: 16px;
+  }
+  .SecondInfoPart {
+    height: 860px;
+  }
+  .SecondInfoContent {
+    height: 760px;
+    justify-content: space-around;
+  }
+  .SecondInfoBox {
+    width: 630px;
+    height: 350px;
+  }
+  .SecondInfoTextBox {
+    width: 600px;
+    height: 340px;
+  }
+  .InfoOrangeText {
+    font-size: 22px;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) .InfoOrangeText {
+    margin-top: 0;
+  }
+  .InfoSimpleText {
+    font-size: 18px;
+    margin: 0;
+  }
+  .ThirdInfoPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1120px;
+  }
+  .ThirdInfoContent {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .InfoSmallText {
+    font-size: 24px;
+    margin-bottom: 2%;
+  }
+  .ThirdInfoColumn {
+    display: flex;
+    flex-direction: row;
+    width: 690px;
+    height: 350px;
+  }
+  .ThirdInfoColumn .InfoIntro {
+    height: 420px;
+    width: 690px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText {
+    width: 630px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+    font-size: 22px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    width: 630px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    font-size: 22px;
+  }
+  .ThirdInfoColumn .InfoIntroText .BoldInfoText {
+    width: 690px;
+    font-size: 18px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    width: 690px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    margin-top: 0;
+  }
+  .ThirdInfoContent .ThirdInfoColumn:nth-child(1) {
+    width: 690px;
+    height: 614px;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstInfoImg {
+    width: 330px;
+    height: 300px;
+  }
+  .SecondInfoImg {
+    width: 330px;
+    height: 300px;
+  }
+  .FirstCompanyPart {
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+  }
+  .FirstCompanyContent {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstCompanyContent .MainHeadText {
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 2%;
+  }
+  .FirstCompanyContent .CompanyIntro {
+    width: 100%;
+    height: 240px;
+  }
+  .FirstCompanyContent .WrapDiv .CompanyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 236px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CompanyBG {
+    display: flex;
+    width: 294px;
+    height: 236px;
+  }
+  .CompanyIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .SimpleCompanyText {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .CheckPart {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .CheckContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .CheckContent .MainHeadText {
+    margin-top: 0;
+    margin-bottom: 4%;
+    line-height: 100%;
+  }
+  .CheckContent .CheckIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CheckContent .CheckIntro .CheckIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .CheckContent .DivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 28%;
+    height: 90px;
+  }
+  .CheckContent input[type=text] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+    background: rgba(120, 139, 255, 0.9);
+    border: 2px solid #0F316A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-family: 'Montserrat';
+  }
+  .CheckContent input[type="button"] {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    width: 58%;
+    height: 100%;
+    background: #2B4570;
+    box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .LogoAndText img {
+    width: 45px;
+    height: 40px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu ul {
+    margin: 0;
+  }
+  .BurgerMenu {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    background: none;
+    margin-left: auto;
+  }
+  .BurgerMenu img {
+    height: 44px;
+    width: 44px;
+  }
+  header {
+    height: 100px;
+  }
+  header .menu li:nth-child(4) {
+    margin-right: 13px;
+  }
+  .FirstContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Introduction {
+    width: 540px;
+    height: 350px;
+  }
+  .Introduction .Slogan h1 {
+    width: 460px;
+    font-weight: 800;
+    font-size: 36px;
+  }
+  .Introduction .Slogan p {
+    width: 460px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .hammer {
+    display: none;
+  }
+  .SecondPart {
+    min-height: 1630px;
+  }
+  .SecondContent h2 {
+    font-size: 24px;
+  }
+  .SecondContent .BaseAlign p {
+    font-size: 16px;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(3n) {
+    margin-right: 1.5%;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .SecondContent .HelpLine {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .ThirdPart {
+    min-height: 1350px;
+  }
+  .ThirdContent h2 {
+    font-size: 24px;
+  }
+  .Advantages .SimpleAdvantage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage {
+    width: 90px;
+    height: 90px;
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage img {
+    height: 60px;
+    width: 60px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage {
+    width: 500px;
+    height: 180px;
+    border-radius: 25px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .HeaderText {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .SecondText {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .FourthPart {
+    min-height: 580px;
+  }
+  .FourthContent .AgeText {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+  }
+  .FourthContent h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .FourthContent .PartnersText {
+    font-size: 18px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon {
+    width: 113px;
+    height: 113px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon img {
+    align-self: center;
+    width: 85px;
+    height: 85px;
+  }
+  .FourthContent .ScrollPane #LeftScroller {
+    height: 95px;
+  }
+  .FourthContent .ScrollPane #RightScroller {
+    height: 95px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon:nth-last-child(-n + 4) {
+    display: none;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+3) {
+    display: flex;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+4) {
+    display: none;
+  }
+  .FifthPart {
+    min-height: 150px;
+  }
+  .FifthContent h2 {
+    font-size: 24px;
+  }
+  .FifthContent .WhiteOnBlueText {
+    font-size: 16px;
+    letter-spacing: 0.15em;
+  }
+  .Form {
+    min-height: 380px;
+  }
+  .textForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .inputElem .inputs {
+    margin-bottom: 4%;
+  }
+  .inForm input {
+    width: 100%;
+    height: 65px;
+    font-size: 18px;
+  }
+  .inForm textarea {
+    font-size: 18px;
+    width: 100%;
+  }
+  footer {
+    min-height: 510px;
+    background: #2B4570;
+  }
+  .FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .FirstFooterColumn .Copyright p {
+    margin-top: 5%;
+    font-size: 10px;
+  }
+  .SecondFooterColumn {
+    margin-top: 5%;
+  }
+  .FooterColumnName {
+    margin-bottom: 2%;
+  }
+  .FooterColumnName p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .FooterColumnContent p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .ServicesContent {
+    min-height: 2380px;
+  }
+  .MainHeadText {
+    font-size: 36px;
+  }
+  .UnderHeadText {
+    font-size: 16px;
+  }
+  .TechnicBox {
+    width: 240px;
+    height: 300px;
+  }
+  .TechnicBox img {
+    height: 101px;
+    width: 140px;
+  }
+  .TechnicBox a {
+    font-size: 16px;
+  }
+  .WrapDiv div:nth-child(3n) {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .WrapDiv div:nth-child(2n) {
+    margin-right: 0;
+  }
+  .WrapDiv div:nth-child(n+10) {
+    margin-bottom: 0;
+  }
+  .TextBox {
+    width: 175px;
+  }
+  .SimpleText {
+    font-size: 16px;
+  }
+  .BoldText {
+    font-size: 16px;
+  }
+  .FirstInfoPart {
+    height: 840px;
+  }
+  .FirstInfoContent .MainHeadText {
+    line-height: 100%;
+  }
+  .InfoBG {
+    width: 290px;
+    height: 254px;
+    align-self: center;
+  }
+  .InfoButtonCont {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .InfoIntro {
+    width: 100%;
+    height: 320px;
+  }
+  .BoldInfoText {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .SimpleInfoText {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .InfoIntroText {
+    width: 90%;
+  }
+  .InfoButton {
+    width: 256px;
+    height: 45px;
+  }
+  .SecondInfoPart {
+    height: 100%;
+  }
+  .SecondInfoContent {
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+  }
+  .SecondInfoBox {
+    width: 90%;
+    height: 400px;
+  }
+  .SecondInfoTextBox {
+    width: 100%;
+    height: 400px;
+  }
+  .InfoOrangeText {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) .InfoOrangeText {
+    margin-top: 0;
+  }
+  .InfoSimpleText {
+    font-size: 16px;
+    margin: 0;
+  }
+  .ThirdInfoPart {
+    height: 1000px;
+  }
+  .InfoSmallText {
+    font-size: 22px;
+    margin-bottom: 2%;
+  }
+  .ThirdInfoColumn {
+    width: 510px;
+    height: 220px;
+  }
+  .ThirdInfoColumn .InfoIntro {
+    height: 450px;
+    width: 510px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText {
+    width: 480px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+    font-size: 20px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    width: 510px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    font-size: 22px;
+  }
+  .ThirdInfoColumn .InfoIntroText .BoldInfoText {
+    width: 510px;
+    font-size: 18px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    margin-top: 0;
+  }
+  .ThirdInfoContent .ThirdInfoColumn:nth-child(1) {
+    width: 510px;
+    height: 640px;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstInfoImg {
+    width: 230px;
+    height: 200px;
+  }
+  .SecondInfoImg {
+    width: 230px;
+    height: 200px;
+  }
+  .FirstCompanyPart {
+    min-height: 930px;
+    display: flex;
+    align-items: center;
+  }
+  .FirstCompanyContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .FirstCompanyContent .MainHeadText {
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 2%;
+  }
+  .FirstCompanyContent .CompanyIntro {
+    width: 100%;
+    height: 100%;
+  }
+  .FirstCompanyContent .WrapDiv {
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 3%;
+  }
+  .FirstCompanyContent .WrapDiv .CompanyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CompanyBG {
+    display: flex;
+    width: 324px;
+    height: 256px;
+  }
+  .CompanyIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 95%;
+    height: 95%;
+  }
+  .SimpleCompanyText {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .CheckPart {
+    min-height: 390px;
+    display: flex;
+    align-items: center;
+  }
+  .CheckContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .CheckContent .MainHeadText {
+    margin-top: 0;
+    margin-bottom: 4%;
+    line-height: 100%;
+  }
+  .CheckContent .CheckIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CheckContent .CheckIntro .CheckIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .CheckContent .DivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 38%;
+    height: 90px;
+  }
+  .CheckContent input[type=text] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+    background: rgba(120, 139, 255, 0.9);
+    border: 2px solid #0F316A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-family: 'Montserrat';
+  }
+  .CheckContent input[type="button"] {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    width: 58%;
+    height: 100%;
+    background: #2B4570;
+    box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 370px;
+  }
+  .LogoAndText {
+    align-content: center;
+  }
+  .LogoAndText .LogoText {
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    height: 44px;
+  }
+  .LogoAndText .LogoText .LogoName {
+    width: 198px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #F46036;
+  }
+  .LogoAndText .LogoText .LogoDescription {
+    width: 198px;
+    height: 10px;
+    padding: 5px 2px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.028em;
+    color: #F46036;
+  }
+  .LogoAndText img {
+    width: 40px;
+    height: 35px;
+  }
+  .BurgerMenu {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin-left: auto;
+  }
+  .BurgerMenu img {
+    height: 35px;
+    width: 35px;
+  }
+  header {
+    height: 80px;
+  }
+  header .showMenu {
+    top: 80px;
+    width: 40%;
+  }
+  .FirstContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+  }
+  .Introduction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 400px;
+  }
+  .Introduction .Slogan {
+    padding-left: 4%;
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+  }
+  .Introduction .Slogan h1 {
+    margin-right: 0;
+    width: 100%;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 112%;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+  }
+  .Introduction .Slogan p {
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .hammer {
+    display: none;
+  }
+  .SecondPart {
+    min-height: 500px;
+  }
+  .SecondContent .TechnicsTypes {
+    justify-content: space-around;
+  }
+  .SecondContent .TechnicsTypes .WrapUl {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign {
+    width: 110px;
+    height: 180px;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign img {
+    height: 60px;
+    width: 60px;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign p {
+    font-size: 14px;
+  }
+  .SecondContent .TechnicsTypes .Scrollers {
+    display: flex;
+  }
+  .SecondContent .TechnicsTypes .Scrollers img {
+    width: 20px;
+  }
+  .SecondContent h2 {
+    font-size: 22px;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(1) {
+    margin-right: 3%;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(n + 3) {
+    display: none;
+  }
+  .SecondContent .HelpLine {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .ThirdPart {
+    min-height: 550px;
+  }
+  .ThirdContent h2 {
+    font-size: 22px;
+    margin-bottom: 5%;
+  }
+  .Advantages {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Advantages .Scrollers {
+    display: flex;
+  }
+  .Advantages .SimpleAdvantage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5%;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage img {
+    height: 70px;
+    width: 70px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage {
+    width: 90%;
+    height: 250px;
+    border-radius: 25px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .HeaderText {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .SecondText {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage:nth-child(n+3) {
+    display: none;
+  }
+  .FourthPart {
+    min-height: 580px;
+  }
+  .FourthContent .AgeText {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+  }
+  .FourthContent h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .FourthContent .PartnersText {
+    font-size: 16px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon {
+    width: 100px;
+    height: 100px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon img {
+    align-self: center;
+    width: 80px;
+    height: 80px;
+  }
+  .FourthContent .ScrollPane #LeftScroller {
+    height: 90px;
+  }
+  .FourthContent .ScrollPane #RightScroller {
+    height: 90px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon:nth-last-child(-n + 5) {
+    display: none;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+2) {
+    display: flex;
+  }
+  .FifthPart {
+    min-height: 150px;
+  }
+  .FifthContent h2 {
+    font-size: 22px;
+  }
+  .FifthContent .WhiteOnBlueText {
+    font-size: 14px;
+    letter-spacing: 0.15em;
+  }
+  .Form {
+    min-height: 380px;
+  }
+  .textForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .inputElem .inputs {
+    margin-bottom: 4%;
+  }
+  .inForm input {
+    width: 100%;
+    height: 65px;
+    font-size: 16px;
+  }
+  .inForm textarea {
+    font-size: 16px;
+    width: 100%;
+  }
+  .inForm input[type="submit"] {
+    font-size: 14px;
+    width: 150px;
+    height: 47px;
+    font-family: 'Montserrat';
+  }
+  footer {
+    min-height: 480px;
+    background: #2B4570;
+  }
+  .FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .FirstFooterColumn .Copyright p {
+    margin-top: 5%;
+    font-size: 10px;
+  }
+  .SecondFooterColumn {
+    margin-top: 5%;
+  }
+  .FooterColumnName {
+    margin-bottom: 2%;
+  }
+  .FooterColumnName p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .FooterColumnContent p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .ServicesContent {
+    min-height: 1780px;
+  }
+  .MainHeadText {
+    font-size: 32px;
+  }
+  .UnderHeadText {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  .TechnicBox {
+    width: 166px;
+    height: 230px;
+  }
+  .TechnicBox img {
+    height: 81px;
+    width: 120px;
+  }
+  .TechnicBox a {
+    font-size: 14px;
+  }
+  .WrapDiv div:nth-child(3n) {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .WrapDiv div:nth-child(2n) {
+    margin-right: 0;
+  }
+  .WrapDiv div:nth-child(n+10) {
+    margin-bottom: 0;
+  }
+  .TextBox {
+    width: 150px;
+  }
+  .SimpleText {
+    font-size: 14px;
+  }
+  .BoldText {
+    font-size: 14px;
+  }
+  .FirstInfoPart {
+    height: 790px;
+  }
+  .FirstInfoContent .MainHeadText {
+    line-height: 100%;
+  }
+  .InfoBG {
+    width: 290px;
+    height: 254px;
+    align-self: center;
+  }
+  .InfoButtonCont {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .InfoIntro {
+    width: 100%;
+    height: 300px;
+  }
+  .BoldInfoText {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .SimpleInfoText {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .InfoIntroText {
+    width: 90%;
+  }
+  .InfoButton {
+    width: 236px;
+    height: 40px;
+  }
+  .SecondInfoPart {
+    height: 100%;
+  }
+  .SecondInfoContent {
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    justify-content: space-around;
+  }
+  .SecondInfoBox {
+    width: 90%;
+    height: 100%;
+  }
+  .SecondInfoTextBox {
+    width: 100%;
+    height: 100%;
+  }
+  .InfoOrangeText {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 3%;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) {
+    height: 100%;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) .InfoOrangeText {
+    margin-top: 0;
+    margin-bottom: 3%;
+  }
+  .InfoSimpleText {
+    font-size: 16px;
+    margin: 0;
+  }
+  .ThirdInfoPart {
+    height: 980px;
+  }
+  .InfoSmallText {
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+  .ThirdInfoColumn {
+    width: 340px;
+    height: 180px;
+  }
+  .ThirdInfoColumn .InfoIntro {
+    height: 450px;
+    width: 340px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText {
+    width: 320px;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    width: 340px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    font-size: 20px;
+  }
+  .ThirdInfoColumn .InfoIntroText .BoldInfoText {
+    width: 340px;
+    font-size: 16px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    margin-top: 0;
+  }
+  .ThirdInfoContent .ThirdInfoColumn:nth-child(1) {
+    width: 340px;
+    height: 680px;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstInfoImg {
+    width: 160px;
+    height: 130px;
+  }
+  .SecondInfoImg {
+    width: 160px;
+    height: 130px;
+  }
+  .FirstCompanyPart {
+    min-height: 1150px;
+    display: flex;
+    align-items: center;
+  }
+  .FirstCompanyContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .FirstCompanyContent .MainHeadText {
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 4%;
+  }
+  .FirstCompanyContent .CompanyIntro {
+    width: 100%;
+    height: 100%;
+  }
+  .FirstCompanyContent .WrapDiv {
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 3%;
+  }
+  .FirstCompanyContent .WrapDiv .CompanyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CompanyBG {
+    display: flex;
+    width: 100%;
+    height: 256px;
+  }
+  .CompanyIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 95%;
+    height: 95%;
+  }
+  .SimpleCompanyText {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .CheckPart {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .CheckContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .CheckContent .MainHeadText {
+    margin-top: 0;
+    margin-bottom: 4%;
+    line-height: 100%;
+  }
+  .CheckContent .CheckIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CheckContent .CheckIntro .CheckIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .CheckContent .DivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 90px;
+  }
+  .CheckContent input[type=text] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+    background: rgba(120, 139, 255, 0.9);
+    border: 2px solid #0F316A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-family: 'Montserrat';
+  }
+  .CheckContent input[type="button"] {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 58%;
+    height: 100%;
+    background: #2B4570;
+    box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 100%;
+  }
+  .LogoAndText {
+    align-content: center;
+  }
+  .LogoAndText .LogoText {
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    height: 44px;
+  }
+  .LogoAndText .LogoText .LogoName {
+    width: 198px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #F46036;
+  }
+  .LogoAndText .LogoText .LogoDescription {
+    width: 198px;
+    height: 10px;
+    padding: 5px 2px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.028em;
+    color: #F46036;
+  }
+  .LogoAndText img {
+    width: 40px;
+    height: 35px;
+  }
+  .BurgerMenu {
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin-left: auto;
+  }
+  .BurgerMenu img {
+    height: 35px;
+    width: 35px;
+  }
+  header {
+    height: 80px;
+  }
+  header .showMenu {
+    top: 80px;
+    width: 50%;
+  }
+  .FirstPart {
+    height: 450px;
+  }
+  .FirstContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .Introduction {
+    width: 100%;
+    height: 80%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .Introduction .Slogan {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .Introduction .Slogan h1 {
+    margin-right: 0;
+    width: 100%;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 112%;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+  }
+  .Introduction .Slogan p {
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .hammer {
+    display: none;
+  }
+  .SecondPart {
+    min-height: 500px;
+  }
+  .SecondContent .TechnicsTypes {
+    justify-content: space-around;
+  }
+  .SecondContent .TechnicsTypes .WrapUl {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign {
+    width: 110px;
+    height: 180px;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign img {
+    height: 60px;
+    width: 60px;
+  }
+  .SecondContent .TechnicsTypes .WrapUl li .BaseAlign p {
+    font-size: 14px;
+  }
+  .SecondContent .TechnicsTypes .Scrollers {
+    display: flex;
+  }
+  .SecondContent .TechnicsTypes .Scrollers img {
+    width: 20px;
+  }
+  .SecondContent h2 {
+    font-size: 22px;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(1) {
+    margin-right: 3%;
+  }
+  .SecondContent .TechnicsTypes li:nth-child(n + 3) {
+    display: none;
+  }
+  .SecondContent .HelpLine {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .ThirdPart {
+    min-height: 550px;
+  }
+  .ThirdContent h2 {
+    font-size: 22px;
+    margin-bottom: 5%;
+  }
+  .Advantages {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Advantages .Scrollers {
+    display: flex;
+  }
+  .Advantages .SimpleAdvantage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5%;
+  }
+  .Advantages .SimpleAdvantage .IconAdvantage img {
+    height: 70px;
+    width: 70px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage {
+    width: 90%;
+    height: 250px;
+    border-radius: 25px;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .HeaderText {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage .TextAdvantage .SecondText {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .Advantages .SimpleAdvantage:nth-child(n+3) {
+    display: none;
+  }
+  .FourthPart {
+    min-height: 580px;
+  }
+  .FourthContent .AgeText {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+  }
+  .FourthContent h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .FourthContent .PartnersText {
+    font-size: 16px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon {
+    width: 100px;
+    height: 100px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon img {
+    align-self: center;
+    width: 80px;
+    height: 80px;
+  }
+  .FourthContent .ScrollPane #LeftScroller {
+    height: 90px;
+  }
+  .FourthContent .ScrollPane #RightScroller {
+    height: 90px;
+  }
+  .FourthContent .ScrollPane .CompanyIcon:nth-last-child(-n + 5) {
+    display: none;
+  }
+  .FourthContent .ScrollCircles .ScrollCircle:nth-child(n+2) {
+    display: flex;
+  }
+  .FifthPart {
+    min-height: 150px;
+  }
+  .FifthContent h2 {
+    font-size: 22px;
+  }
+  .FifthContent .WhiteOnBlueText {
+    font-size: 14px;
+    letter-spacing: 0.15em;
+  }
+  .Form {
+    min-height: 380px;
+  }
+  .textForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputElem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .inputElem .inputs {
+    margin-bottom: 4%;
+  }
+  .inForm input {
+    width: 100%;
+    height: 65px;
+    font-size: 16px;
+  }
+  .inForm textarea {
+    font-size: 16px;
+    width: 100%;
+  }
+  .inForm input[type="submit"] {
+    font-size: 14px;
+    width: 150px;
+    height: 47px;
+    font-family: 'Montserrat';
+  }
+  footer {
+    min-height: 480px;
+    background: #2B4570;
+  }
+  .FooterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .FirstFooterColumn .Copyright p {
+    margin-top: 5%;
+    font-size: 10px;
+  }
+  .SecondFooterColumn {
+    margin-top: 5%;
+  }
+  .FooterColumnName {
+    margin-bottom: 2%;
+  }
+  .FooterColumnName p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .FooterColumnContent p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .ServicesContent {
+    min-height: 3320px;
+  }
+  .MainHeadText {
+    font-size: 32px;
+  }
+  .UnderHeadText {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  .TechnicBox {
+    width: 196px;
+    height: 240px;
+  }
+  .TechnicBox img {
+    height: 91px;
+    width: 130px;
+  }
+  .TechnicBox a {
+    font-size: 14px;
+  }
+  .WrapDiv div:nth-child(n) {
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+  .WrapDiv div:nth-child(12) {
+    margin-bottom: 0;
+  }
+  .TextBox {
+    width: 150px;
+  }
+  .SimpleText {
+    font-size: 14px;
+  }
+  .BoldText {
+    font-size: 14px;
+  }
+  .FirstInfoPart {
+    height: 810px;
+  }
+  .FirstInfoContent .MainHeadText {
+    line-height: 100%;
+  }
+  .InfoBG {
+    width: 290px;
+    height: 254px;
+    align-self: center;
+  }
+  .InfoButtonCont {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .InfoIntro {
+    width: 100%;
+    height: 350px;
+  }
+  .BoldInfoText {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .SimpleInfoText {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  .InfoIntroText {
+    width: 90%;
+  }
+  .InfoButton {
+    width: 206px;
+    height: 35px;
+  }
+  .SecondInfoPart {
+    height: auto;
+  }
+  .SecondInfoContent {
+    height: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    justify-content: space-around;
+  }
+  .SecondInfoBox {
+    width: 90%;
+    height: auto;
+  }
+  .SecondInfoTextBox {
+    width: 100%;
+    height: auto;
+  }
+  .InfoOrangeText {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 20px;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(n) {
+    height: auto;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) {
+    height: auto;
+  }
+  .SecondInfoContent .SecondInfoBox:nth-child(2) .InfoOrangeText {
+    margin-top: 0;
+  }
+  .InfoSimpleText {
+    font-size: 16px;
+    margin-bottom: 2%;
+  }
+  .ThirdInfoPart {
+    height: 100%;
+    padding-bottom: 7%;
+    padding-top: 7%;
+  }
+  .InfoSmallText {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 2%;
+  }
+  .ThirdInfoColumn {
+    width: 100%;
+    height: 120px;
+  }
+  .ThirdInfoColumn .InfoIntro {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText {
+    height: 100%;
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .ThirdInfoColumn .InfoIntro .InfoIntroText .SimpleInfoText {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .ThirdInfoColumn .InfoIntroText {
+    height: 95%;
+    width: 100%;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    font-size: 18px;
+  }
+  .ThirdInfoColumn .InfoIntroText .BoldInfoText {
+    width: 100%;
+    font-size: 16px;
+  }
+  .ThirdInfoColumn .InfoIntroText .InfoOrangeText {
+    margin-top: 0;
+  }
+  .ThirdInfoContent .ThirdInfoColumn:nth-child(1) {
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .FirstInfoImg {
+    width: 130px;
+    height: 100px;
+  }
+  .SecondInfoImg {
+    width: 130px;
+    height: 100px;
+  }
+  .FirstCompanyPart {
+    min-height: 1280px;
+    display: flex;
+    align-items: center;
+  }
+  .FirstCompanyContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .FirstCompanyContent .MainHeadText {
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 4%;
+  }
+  .FirstCompanyContent .CompanyIntro {
+    width: 100%;
+    height: 100%;
+  }
+  .FirstCompanyContent .WrapDiv {
+    justify-content: center;
+    align-content: space-between;
+    margin-bottom: 3%;
+  }
+  .FirstCompanyContent .WrapDiv .CompanyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 100%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CompanyBG {
+    display: flex;
+    width: 100%;
+    height: 256px;
+  }
+  .CompanyIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 95%;
+    height: 95%;
+  }
+  .SimpleCompanyText {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .CheckPart {
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+  }
+  .CheckContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .CheckContent .MainHeadText {
+    margin-top: 0;
+    margin-bottom: 4%;
+    line-height: 100%;
+  }
+  .CheckContent .CheckIntro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 10px;
+  }
+  .CheckContent .CheckIntro .CheckIntroText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+  }
+  .CheckContent .CheckIntro .CheckIntroText .SimpleCheckText {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .CheckContent .DivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 65%;
+    height: 90px;
+  }
+  .CheckContent input[type=text] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+    padding: 0;
+    background: rgba(120, 139, 255, 0.9);
+    border: 2px solid #0F316A;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: black;
+    -webkit-text-fill-color: black;
+    font-family: 'Montserrat';
+  }
+  .CheckContent input[type="button"] {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    color: #FFFFFF;
+    -webkit-text-fill-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    width: 58%;
+    height: 100%;
+    background: #2B4570;
+    box-shadow: 0 9px 35px rgba(43, 69, 112, 0.56);
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
