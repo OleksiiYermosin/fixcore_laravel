@@ -18,9 +18,8 @@
             <div class="CheckIntro">
                 <div class="CheckIntroText">
                     <p class="SimpleCheckText">Шановні клієнти, на цій
-                        сторінці ви можете перевірити статус ремонту вашої
-                        техніки, ввівши номер телефону у
-                        відповідне поле.
+                        сторінці ви можете подивитися які види вашої техніки ремонтуються
+                        у нас, а також дізнатися номер майстра
                     </p>
 
                 </div>
@@ -28,18 +27,16 @@
             </div>
             <div class='CheckIntro'>
                 <div class='CheckIntroText'>
-                    @for($i = 0; $i < count($status); $i++)
-                        <p class='SimpleCheckText'>
-                            @foreach($status->get($i)->orders as $r)
-                                Інформація про замовлення: {{$r->name}}
-                                <br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Дата початку ремонту: {{$r->order_date}}
-                                <br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Дата приблизного закінчення ремонту: {{$r->deadline}}
-                                <br>
-                            @endforeach
-                        </p>
-                    @endfor
+                    <p class='SimpleCheckText'>
+                        Види техніки в ремонті:
+                        @foreach($groups as $r)
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; Вид: {{$r->name}}
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; Ідентифікатор майстра: {{$r->master_id}}
+                            <br>
+                        @endforeach
+                    </p>
                 </div>
             </div>
             <form method="get">

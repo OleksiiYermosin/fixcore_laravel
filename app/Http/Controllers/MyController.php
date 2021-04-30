@@ -3,15 +3,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use App\Models\Device;
+use App\Models\Client;
 
 class MyController extends Controller
 {
     public function checkStatus($order_number){
-        $S = new Device($order_number);
-        $S->findStatus();
-        return view('check', ['status'=>$S->status]);
+        $results = Client::where('phone_number', $order_number)->get();
+        return view('check', ['status'=>$results]);
+    }
+
+    public function viewGroups($id){
+        $results = Client::find($id)->groups;
+        return view('group', ['groups'=>$results]);
     }
 
     public function changePage($page){

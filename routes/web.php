@@ -30,6 +30,8 @@ Route::get('/page={page}', 'App\Http\Controllers\MyController@changePage');
 
 Route::get('/check/{order_number}', 'App\Http\Controllers\MyController@checkstatus');
 
+Route::get('/groups/{id}', 'App\Http\Controllers\MyController@viewGroups');
+
 Route::post('/acceptForm', 'App\Http\Controllers\MyController@acceptForm');
 
 
