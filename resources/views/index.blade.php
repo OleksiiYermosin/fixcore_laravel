@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-    <link href="../resources/css/styles.css" rel="stylesheet">
-    <link href="../resources/css/bootstrap-grid.css" rel="stylesheet">
+    <link href="{{asset('../resources/css/styles.css')}}" rel="stylesheet">
+    <link href="{{asset('../resources/css/bootstrap-grid.css')}}" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container">
         <nav>
             <div class="LogoAndText">
-                <img src="img/Logo.svg" alt="LogoSL">
+                <img src={{asset('img/Logo.svg')}} alt="LogoSL">
                 <div class="LogoText">
                     <div class=LogoName>
                         FixCore
@@ -46,7 +46,7 @@
         <div class="FooterContent">
             <div class="FirstFooterColumn">
                 <div class="LogoAndText">
-                    <img src="http://localhost/project/public/img/Logo.svg" alt="LogoSL">
+                    <img src={{asset('img/Logo.svg')}} alt="LogoSL">
                     <div class="LogoText">
                         <div class=LogoName>
                             FixCore

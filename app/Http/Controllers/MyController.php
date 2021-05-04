@@ -4,12 +4,33 @@
 namespace App\Http\Controllers;
 
 use App\Models\Client;
+use App\Models\Group;
 
 class MyController extends Controller
 {
+    public function clients(){
+        $results = Group::find(request('statusfield'))->clients;
+        return view('client', ['clients'=>$results]);
+    }
+
+    public function viewClients($id){
+        $results = Group::find($id)->clients;
+        return view('client', ['clients'=>$results]);
+    }
+
     public function checkStatus($order_number){
         $results = Client::where('phone_number', $order_number)->get();
-        return view('check', ['status'=>$results]);
+        return view('checkstatus', ['status'=>$results]);
+    }
+
+    public function check(){
+        $results = Client::where('phone_number', request('statusfield'))->get();
+        return view('checkstatus', ['status'=>$results]);
+    }
+
+    public function groups(){
+        $results = Client::find(request('statusfield'))->groups;
+        return view('group', ['groups'=>$results]);
     }
 
     public function viewGroups($id){

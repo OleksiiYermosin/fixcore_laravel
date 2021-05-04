@@ -17,31 +17,27 @@
             <h1 class="MainHeadText">Перевірити статус ремонту</h1>
             <div class="CheckIntro">
                 <div class="CheckIntroText">
-                    <p class="SimpleCheckText">Шановні клієнти, на цій
-                        сторінці ви можете подивитися які види вашої техніки ремонтуються
-                        у нас, а також дізнатися номер майстра
+                    <p class="SimpleCheckText">На цій
+                        сторінці ви можете подивитися які види техніки знаходяться в сервісі та яким  клієнтам належать
                     </p>
 
                 </div>
 
             </div>
-            @if(isset($groups))
+            @if(isset($clients))
             <div class='CheckIntro'>
                 <div class='CheckIntroText'>
                     <p class='SimpleCheckText'>
-                        Види техніки в ремонті:
-                        @foreach($groups as $r)
+                        Клієнти:
+                        @foreach($clients as $r)
                             <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; Вид: {{$r->name}}
-                            <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp; Ідентифікатор майстра: {{$r->master_id}}
-                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; Клієнт: {{$r->name}}
                         @endforeach
                     </p>
                 </div>
             </div>
             @endif
-            <form method="get" action="{{asset('/groups')}}">
+            <form method="get" action="{{asset('/clients')}}">
                 <div class="DivForm">
                     <input name="statusfield" type="text">
                     <input value="Перевірити" name="submitButton" type="button" onclick="submit()">

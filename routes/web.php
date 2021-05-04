@@ -30,7 +30,15 @@ Route::get('/page={page}', 'App\Http\Controllers\MyController@changePage');
 
 Route::get('/check/{order_number}', 'App\Http\Controllers\MyController@checkstatus');
 
+Route::get('/check', 'App\Http\Controllers\MyController@check');
+
 Route::get('/groups/{id}', 'App\Http\Controllers\MyController@viewGroups');
+
+Route::get('/groups', 'App\Http\Controllers\MyController@groups');
+
+Route::get('/clients/{id}', 'App\Http\Controllers\MyController@viewClients');
+
+Route::get('/clients', 'App\Http\Controllers\MyController@clients');
 
 Route::post('/acceptForm', 'App\Http\Controllers\MyController@acceptForm');
 

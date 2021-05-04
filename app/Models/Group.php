@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Group extends Model{
 
+    public function clients(){
+        return $this->belongsToMany('App\Models\Client', 'technics', 'group_id', 'client_id');
+    }
+
 }

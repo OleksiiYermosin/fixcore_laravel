@@ -26,23 +26,25 @@
                 </div>
 
             </div>
-            <div class='CheckIntro'>
-                <div class='CheckIntroText'>
-                    @for($i = 0; $i < count($status); $i++)
-                        <p class='SimpleCheckText'>
-                            @foreach($status->get($i)->orders as $r)
-                                Інформація про замовлення: {{$r->name}}
-                                <br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Дата початку ремонту: {{$r->order_date}}
-                                <br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; Дата приблизного закінчення ремонту: {{$r->deadline}}
-                                <br>
-                            @endforeach
-                        </p>
-                    @endfor
+            @if(isset($status))
+                <div class='CheckIntro'>
+                    <div class='CheckIntroText'>
+                        @for($i = 0; $i < count($status); $i++)
+                            <p class='SimpleCheckText'>
+                                @foreach($status->get($i)->orders as $r)
+                                    Інформація про замовлення: {{$r->name}}
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp; Дата початку ремонту: {{$r->order_date}}
+                                    <br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp; Дата приблизного закінчення ремонту: {{$r->deadline}}
+                                    <br>
+                                @endforeach
+                            </p>
+                        @endfor
+                    </div>
                 </div>
-            </div>
-            <form method="get">
+            @endif
+            <form method="get" action={{asset('/check')}}>
                 <div class="DivForm">
                     <input name="statusfield" type="text">
                     <input value="Перевірити" name="submitButton" type="button" onclick="submit()">

@@ -11,36 +11,32 @@
                     <div class="CheckIntroText">
                         <p class="SimpleCheckText">Шановні клієнти, на цій
                             сторінці ви можете перевірити статус ремонту вашої
-                            техніки, ввівши номер телефону або номер замовлення у
+                            техніки, ввівши номер телефону у
                             відповідне поле.
                         </p>
 
                     </div>
 
                 </div>
-                <?php
-                if (isset($_GET["statusfield"])) {
-                    $message = "";
-                    if ($_GET["statusfield"]) {
-                        $data = trim($_GET["statusfield"]);
-                        $data = stripslashes($_GET["statusfield"]);
-                        $data = htmlspecialchars($_GET["statusfield"]);
-                        if (strlen($data) == 10) {
-                            $message = 'якийсь статус';
-                        } else {
-                            $message = 'невірний код';
-                        }
-                    } else {
-                        $message = 'порожній код';
-                    }
-                    echo "<div class='CheckIntro'>
-                <div class='CheckIntroText'>
-                    <p class='SimpleCheckText'>Статус вашого змовлення: ".$message."</p>
-                </div>
-            </div>";
-                }
-                ?>
-                <form method="get">
+                @if(isset($status))
+                    <div class='CheckIntro'>
+                        <div class='CheckIntroText'>
+                            @for($i = 0; $i < count($status); $i++)
+                                <p class='SimpleCheckText'>
+                                    @foreach($status->get($i)->orders as $r)
+                                        Інформація про замовлення: {{$r->name}}
+                                        <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp; Дата початку ремонту: {{$r->order_date}}
+                                        <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp; Дата приблизного закінчення ремонту: {{$r->deadline}}
+                                        <br>
+                                    @endforeach
+                                </p>
+                            @endfor
+                        </div>
+                    </div>
+                @endif
+                <form method="get" action={{asset('/check')}}>
                     <div class="DivForm">
                         <input name="statusfield" type="text">
                         <input value="Перевірити" name="submitButton" type="button" onclick="submit()">
